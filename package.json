@@ -1,0 +1,23 @@
+{
+  "name": "backend-viptech-project",
+  "version": "1.0.0",
+  "description": "Backend em NODEJS feito para o Bootcamp Viptech",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tiago Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prisma": "^4.0.0"
+  }
+}
