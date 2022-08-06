@@ -6,8 +6,8 @@ const porta = 3001;
 const product = require("./routes/product");
 
 
-
 app.use(express.json());
+app.use('./uploadImages', express.static("uploadImagens"))
 app.use(morgan("dev"));
 app.use(cors());
 
